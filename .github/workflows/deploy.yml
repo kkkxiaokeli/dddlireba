@@ -46,6 +46,6 @@ jobs:
           git init
           git add -A
           git commit -m "Create by workflows"
-          git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/kkkxiaokeli/dddlireba.git    #删掉：这里也要改#
+          git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/kkkxiaokeli/dddlireba.git   
           git push origin HEAD:gh-pages -f
           
